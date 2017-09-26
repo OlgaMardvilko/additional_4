@@ -1,6 +1,6 @@
 module.exports = function multiply(first, second) {
-		var arr1 = x.split(''); // разбиваем строку в массив по одному элементу = цифра числа
-		var arr2 = y.split('');
+		var arr1 = first.split(''); // разбиваем строку в массив по одному элементу = цифра числа
+		var arr2 = second.split('');
 		var arrNum1 = arr1.map(Number).reverse(); // преобразуем в числовой массив и переворачиваем
 		var arrNum2 = arr2.map(Number).reverse();
 		var newArr =[];
